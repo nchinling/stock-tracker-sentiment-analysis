@@ -1,5 +1,6 @@
 import { StockContext } from "../contexts/StockContext";
 import { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { deleteStock } from "../service/db-service";
 import "./styles/StockList.css";
 
@@ -69,7 +70,10 @@ function StockList({ title }) {
           <tbody>
             {stocks.map((stock, index) => (
               <tr key={index}>
-                <td>{stock.symbol}</td>
+                {/* <td>{stock.symbol}</td> */}
+                <td>
+                  <Link to={`/dashboard/sentiment/${stock.symbol}`}>{stock.symbol}</Link>
+                </td>
                 <td>{stock.quantity}</td>
                 <td>{stock.purchasePrice}</td>
                 <td>{stock.currentPrice}</td>

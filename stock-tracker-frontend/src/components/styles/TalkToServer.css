@@ -1,3 +1,13 @@
 .server-button {
   background-color: beige;
 }
+
+/* style={{
+    textDecoration: "none",
+    backgroundColor: "#007bff",
+    color: "white",
+    padding: "10px 16px",
+    borderRadius: "6px",
+    fontWeight: "bold",
+    display: "inline-block",
+}} */

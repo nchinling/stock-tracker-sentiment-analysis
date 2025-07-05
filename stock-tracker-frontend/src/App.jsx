@@ -15,6 +15,8 @@ import StockPage from "./components/StockPage";
 import NewUser from "./components/NewUser";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./contexts/ProtectedRoute";
+import SentimentPage from "./components/SentimentPage";
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -34,6 +36,15 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <StockPage />
+
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/dashboard/sentiment/:symbol"
+                element={
+                  <ProtectedRoute>
+                    <SentimentPage />
                   </ProtectedRoute>
                 }
               />

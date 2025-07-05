@@ -5,6 +5,7 @@ dotenv.config();
 
 import stockRoutes from "./routes/stockRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
+import sentimentRoutes from "./routes/sentimentRoutes.js";
 
 const app = express();
 const PORT = 5000;
@@ -25,6 +26,7 @@ app.get("/api/communicate", async (req, res) => {
 // Modular routes
 app.use("/api/stocks", stockRoutes);
 app.use("/api/user", authRoutes);
+app.use("/api/sentiment", sentimentRoutes);
 
 // Start server
 app.listen(PORT, () => {
