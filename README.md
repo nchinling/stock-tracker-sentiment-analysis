@@ -38,7 +38,8 @@ The app integrates with the Yahoo Finance API (yfinance) to gather the latest ne
 
 ![Hold](./images/meta-sa.png)
 
-[![Watch the video](./images/dashboard-stocks.png)](https://youtu.be/ogNpAJJR4Ag)
+## Watch the video
+[![Watch the video](./images/mmm-sa.png)](https://youtu.be/ogNpAJJR4Ag)
 ---
 
 
