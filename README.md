@@ -1,11 +1,17 @@
-# 📈 Stock Tracker App
+# 📈 Stock Tracker with Sentiment Analysis App
 
-Welcome to the **Stock Tracker App** — a beginner-friendly full-stack project that helps users track their stock investments. This app allows you to record trades, fetch live stock prices, and calculate profits or losses on individual and overall stock holdings.
+This application allows you to track stocks and receive sentiment analysis based on news articles related to specific stock symbols.
+
+The app integrates with the Yahoo Finance API (yfinance) to gather the latest news and leverages the OpenAI API to analyze and generate sentiment insights. This provides users with a quick and intuitive understanding of the market sentiment toward any given stock.
 
 ---
 
 ## 🔧 Features
 
+- Track individual stocks by symbol (e.g., AAPL, TSLA)
+- Fetch sentiment analysis from backend API
+- Classify sentiment as Buy, Sell, or Hold with color-coded recommendations
+- Simple, clean user interface
 - 💾 Save stock trades in an SQL database  
 - 🔍 Fetch current stock prices using the Yahoo Finance API  
 - 🧮 Calculate individual and total profit/loss of your investments  
@@ -18,7 +24,7 @@ Welcome to the **Stock Tracker App** — a beginner-friendly full-stack project 
 - **Frontend**: React+Vite
 - **Backend**: Node.js with Express  
 - **Database**: SQL  
-- **API**: Yahoo Finance API
+- **API**: Yahoo Finance API, OpenAI API
 
 ---
 
