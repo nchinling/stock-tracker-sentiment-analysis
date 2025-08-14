@@ -2,7 +2,7 @@
 
 This application allows you to track stocks and receive sentiment analysis based on news articles related to specific stock symbols.
 
-The app integrates with the Yahoo Finance API (yfinance) to gather the latest news and leverages the OpenAI API to analyze and generate sentiment insights. This provides users with a quick and intuitive understanding of the market sentiment toward any given stock.
+The app integrates with the Yahoo Finance API (yfinance) to gather the latest news and leverages the OpenAI API to analyse and generate sentiment insights. This provides users with a quick and intuitive understanding of the market sentiment toward any given stock.
 
 ---
 
@@ -27,6 +27,20 @@ The app integrates with the Yahoo Finance API (yfinance) to gather the latest ne
 - **API**: Yahoo Finance API, OpenAI API
 
 ---
+
+## Dashboard
+![Dashboard](./images/dashboard-stocks.png)
+
+## Sentiment Analysis
+![Buy](./images/voo-sa.png)
+
+![Buy](./images/lrcx-sa.png)
+
+![Hold](./images/meta-sa.png)
+
+[![Watch the video](./images/dashboard-stocks.png)](https://youtu.be/ogNpAJJR4Ag)
+---
+
 
 ## 🚀 Getting Started
 
